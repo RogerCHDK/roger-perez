@@ -5,9 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/estilos.css">
+    <link rel="stylesheet" href="./estilos/estilos-tablet.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./estilos/estilos-desktop.css" media="screen and (min-width:800px)">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+	<!--material icons-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
     <title>Rogelio Perez</title>
 </head>
 <body>
-    <h1>Hola mundo</h1>
+
+    <!-- Barra de navegacion -->
+    <header>
+        <nav>
+            <ul class="menu">
+            <li class="logo"><a href=""> Royer
+            </a> </li>
+            <li class="item"><a href="#about-me">Sobre mi</a></li> 
+            <!-- <li class="item"><a href="#">Experiencia</a></li>  -->
+            <li class="item"><a href="#">Proyectos</a></li>
+            <li class="item"><a href="#">Contacto</a> </li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Contenido principal -->
+<main class="principal">
+
+    <!-- Seccion de presentacion -->
+    <div class="presentacion">
+
+        <div class="informacion-personal">
+            <h1>Hola, mi nombre es</h1>
+            <h2>Rogelio Pérez</h2>
+            <h3>Desarrollador Web</h3>
+            <div class="icon-contacto">
+                <a href="https://github.com/RogerCHDK" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/RogerCHDK" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rogelio-antonio-pérez-díaz-a3a913212/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="imagen-principal">
+            <img id="svg1" src="./imagenes/2-img.svg" alt="">
+        </div>
+        
+    </div>
+
+   <div class="about-me" id="about-me">
+    
+       <div class="description">
+        <h2>Sobre mi</h2>
+        <div class="about-description">
+         <p>Me llamo Rogelio Antonio Pérez Díaz, soy Ingeniero en Sistemas Computacionales
+             egresado del Instituto Tecnologico de Toluca.
+         </p>
+         </div>
+         <div class="about-description">
+         <p>Mi interes en el desarrollo web inicio en 2019 cuando participe
+             en el Concurso de Innovacion Tecnologica (ENEIT) creando una aplicacion web 
+             sobre el manejo y gestion de garantias virtuales, con el fin de reducir el 
+             papel utilizado cada que se emetian de forma fisica. 
+         </p>
+         </div>
+         <div class="about-description">
+         <p>
+          Actualmente busco incorporarme a una empresa en la cual pueda aplicar mis conocimientos y
+          experiencia en el desarrollo de aplicaciones web y gestión de bases de datos,
+          permitiéndome crecer de maneral profesional y personal, ayudando al avance de
+          la compañía.
+         </p>
+         </div>
+       </div>
+
+       <div class="skills">
+           <p>Aqui algunas tecnologias con las que he estado trabajado recientemente:</p>
+           <div class="tecnologias">
+               <p class="tecnologias-item">PHP</p>
+               <p class="tecnologias-item">JavaScript (ES6+)</p>
+               <p class="tecnologias-item">Laravel</p>
+               <p class="tecnologias-item">Node.js</p>
+               <p class="tecnologias-item">Blade</p>
+               <p class="tecnologias-item">React</p>
+               <p class="tecnologias-item">MySql</p>
+               <p class="tecnologias-item">MongoDB</p>
+           </div>
+       </div>
+      
+   </div>
+
+</main>
+    
+    
+
+<script src="./js/index.js"></script>
 </body>
 </html>

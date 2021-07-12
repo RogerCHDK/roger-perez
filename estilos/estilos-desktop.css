@@ -1,0 +1,16 @@
+.item {
+    display: block;
+    width: auto;
+  }
+  .toggle {
+    display: none;
+  }
+  .logo {
+    order: 0;
+  }
+  .item {
+    order: 1;
+  }
+  .menu li {
+    padding: 15px 10px;
+  }
