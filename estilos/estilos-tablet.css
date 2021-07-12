@@ -36,6 +36,24 @@
     justify-content: center;
 }
 
+/* Proyectos */
+
+.proyectos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.proyectos h2{
+    display: inline-block;
+    width: 100%;
+}
+
+.container-project{
+    width: 45%;
+}
+
 
 
 
